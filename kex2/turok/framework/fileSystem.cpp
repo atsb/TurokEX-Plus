@@ -308,6 +308,6 @@ void kexFileSystem::Init(void) {
         cvarBasePath.Set(sysMain.GetBaseDirectory());
     }
 
-    LoadZipFile("data000.kpf");
+    LoadZipFile("game.kpf");
     common.Printf("File System Initialized\n");
 }

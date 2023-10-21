@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2ACEEF1A2AAB978F00A19ADE /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ACEEF192AAB978F00A19ADE /* OpenAL.framework */; };
+		2ACEEF1E2AABA80D00A19ADE /* libangelscript.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ACEEF1D2AABA80C00A19ADE /* libangelscript.a */; };
+		2ACEEF262AABA8CB00A19ADE /* renderImgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2ACEEF232AABA8CB00A19ADE /* renderImgui.cpp */; };
+		2ACEEF272AABA8CB00A19ADE /* cpuVertexList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2ACEEF252AABA8CB00A19ADE /* cpuVertexList.cpp */; };
+		2ACEEF322AABA91300A19ADE /* imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2ACEEF2B2AABA91200A19ADE /* imgui.cpp */; };
+		2ACEEF332AABA91300A19ADE /* systemBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2ACEEF2C2AABA91200A19ADE /* systemBase.cpp */; };
+		2ACEEF382AABA93A00A19ADE /* gui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2ACEEF352AABA93900A19ADE /* gui.cpp */; };
+		2ACEEF392AABA93A00A19ADE /* canvas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2ACEEF362AABA93900A19ADE /* canvas.cpp */; };
+		2ACEEF3B2AABAA0800A19ADE /* libSDL2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ACEEF3A2AABAA0800A19ADE /* libSDL2.dylib */; };
+		2ACEEF3C2AABAAA600A19ADE /* libSDL2.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2ACEEF3A2AABAA0800A19ADE /* libSDL2.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		411FAEFD191803D700EC16DA /* image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 411FAEFB191803D700EC16DA /* image.cpp */; };
-		415E211218CF710A000589E5 /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41DD4F9618CA685500664EF8 /* libSDL2.a */; };
-		415E211518CF711D000589E5 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41DD4F9418CA685500664EF8 /* SDL2.framework */; };
 		4193C4F018F5AE370008503A /* worldModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4193C4EE18F5AE370008503A /* worldModel.cpp */; };
 		41AD473C18FC3C70007B3201 /* lensFlares.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41AD473A18FC3C70007B3201 /* lensFlares.cpp */; };
 		41AD474718FC8149007B3201 /* fbo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41AD474518FC8149007B3201 /* fbo.cpp */; };
@@ -24,9 +32,7 @@
 		41CAA0DB18E9CF2600C03A0A /* renderMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41CAA0D918E9CF2600C03A0A /* renderMain.cpp */; };
 		41DD4FB018CA69EE00664EF8 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41DD4FAC18CA69EE00664EF8 /* Carbon.framework */; };
 		41DD4FB118CA69EE00664EF8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41DD4FAD18CA69EE00664EF8 /* Cocoa.framework */; };
-		41DD4FB218CA69EE00664EF8 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41DD4FAE18CA69EE00664EF8 /* OpenAL.framework */; };
 		41DD4FB318CA69EE00664EF8 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41DD4FAF18CA69EE00664EF8 /* OpenGL.framework */; };
-		41DD4FC518CA6CC900664EF8 /* libangelscript.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41DD4FC218CA6C9200664EF8 /* libangelscript.a */; };
 		41DD4FD218CA6EF400664EF8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41DD4FD118CA6EF400664EF8 /* main.cpp */; };
 		41DD500518CA6F3C00664EF8 /* binFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41DD4FD618CA6F3C00664EF8 /* binFile.cpp */; };
 		41DD500618CA6F3C00664EF8 /* client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41DD4FD918CA6F3C00664EF8 /* client.cpp */; };
@@ -86,7 +92,6 @@
 		41DD507D18CA6FCA00664EF8 /* quaternion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41DD507418CA6FCA00664EF8 /* quaternion.cpp */; };
 		41DD507E18CA6FCA00664EF8 /* random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41DD507518CA6FCA00664EF8 /* random.cpp */; };
 		41DD507F18CA6FCA00664EF8 /* vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41DD507618CA6FCA00664EF8 /* vector.cpp */; };
-		41DD509418CA6FE100664EF8 /* canvas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41DD508318CA6FE100664EF8 /* canvas.cpp */; };
 		41DD509518CA6FE100664EF8 /* frustum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41DD508518CA6FE100664EF8 /* frustum.cpp */; };
 		41DD509618CA6FE100664EF8 /* renderFont.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41DD508718CA6FE100664EF8 /* renderFont.cpp */; };
 		41DD509718CA6FE100664EF8 /* renderModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41DD508918CA6FE100664EF8 /* renderModel.cpp */; };
@@ -105,65 +110,6 @@
 		41DD50FC18CA856F00664EF8 /* unix.c in Sources */ = {isa = PBXBuildFile; fileRef = 41DD50F418CA856F00664EF8 /* unix.c */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		415E211318CF7110000589E5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 41DD4F8C18CA685500664EF8 /* SDL.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = BECDF66D0761BA81005FE872;
-			remoteInfo = "Static Library";
-		};
-		41DD4F9318CA685500664EF8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 41DD4F8C18CA685500664EF8 /* SDL.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BECDF66C0761BA81005FE872;
-			remoteInfo = Framework;
-		};
-		41DD4F9518CA685500664EF8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 41DD4F8C18CA685500664EF8 /* SDL.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BECDF6B30761BA81005FE872;
-			remoteInfo = "Static Library";
-		};
-		41DD4F9718CA685500664EF8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 41DD4F8C18CA685500664EF8 /* SDL.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DB31407717554B71006C0E22;
-			remoteInfo = "Shared Library";
-		};
-		41DD4F9918CA685500664EF8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 41DD4F8C18CA685500664EF8 /* SDL.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BECDF6BE0761BA81005FE872;
-			remoteInfo = "Standard DMG";
-		};
-		41DD4FC118CA6C9200664EF8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 41DD4FBC18CA6C9200664EF8 /* angelscript.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D2AAC07E0554694100DB518D;
-			remoteInfo = "angelscript OSX";
-		};
-		41DD4FC318CA6C9200664EF8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 41DD4FBC18CA6C9200664EF8 /* angelscript.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6E91FFE31823DA0D00D59009;
-			remoteInfo = "angelscript iOS";
-		};
-		41DD50A118CA712200664EF8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 41DD4FBC18CA6C9200664EF8 /* angelscript.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D2AAC07D0554694100DB518D;
-			remoteInfo = "angelscript OSX";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		41DD4F9E18CA692C00664EF8 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -171,12 +117,32 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				2ACEEF3C2AABAAA600A19ADE /* libSDL2.dylib in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2ACEEF192AAB978F00A19ADE /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		2ACEEF1D2AABA80C00A19ADE /* libangelscript.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libangelscript.a; sourceTree = "<group>"; };
+		2ACEEF212AABA82100A19ADE /* Kex2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Kex2.entitlements; sourceTree = "<group>"; };
+		2ACEEF222AABA8CA00A19ADE /* cpuVertexList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cpuVertexList.h; path = ../turok/renderer/cpuVertexList.h; sourceTree = "<group>"; };
+		2ACEEF232AABA8CB00A19ADE /* renderImgui.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = renderImgui.cpp; path = ../turok/renderer/renderImgui.cpp; sourceTree = "<group>"; };
+		2ACEEF242AABA8CB00A19ADE /* renderImgui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = renderImgui.h; path = ../turok/renderer/renderImgui.h; sourceTree = "<group>"; };
+		2ACEEF252AABA8CB00A19ADE /* cpuVertexList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cpuVertexList.cpp; path = ../turok/renderer/cpuVertexList.cpp; sourceTree = "<group>"; };
+		2ACEEF2A2AABA91200A19ADE /* resourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = resourceManager.h; path = ../turok/framework/resourceManager.h; sourceTree = "<group>"; };
+		2ACEEF2B2AABA91200A19ADE /* imgui.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imgui.cpp; path = ../turok/framework/imgui.cpp; sourceTree = "<group>"; };
+		2ACEEF2C2AABA91200A19ADE /* systemBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = systemBase.cpp; path = ../turok/framework/systemBase.cpp; sourceTree = "<group>"; };
+		2ACEEF2D2AABA91200A19ADE /* inputSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = inputSystem.h; path = ../turok/framework/inputSystem.h; sourceTree = "<group>"; };
+		2ACEEF2E2AABA91300A19ADE /* getter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = getter.h; path = ../turok/framework/getter.h; sourceTree = "<group>"; };
+		2ACEEF2F2AABA91300A19ADE /* imgui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = imgui.h; path = ../turok/framework/imgui.h; sourceTree = "<group>"; };
+		2ACEEF302AABA91300A19ADE /* systemBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = systemBase.h; path = ../turok/framework/systemBase.h; sourceTree = "<group>"; };
+		2ACEEF342AABA93900A19ADE /* gui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gui.h; path = ../turok/game/gui.h; sourceTree = "<group>"; };
+		2ACEEF352AABA93900A19ADE /* gui.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gui.cpp; path = ../turok/game/gui.cpp; sourceTree = "<group>"; };
+		2ACEEF362AABA93900A19ADE /* canvas.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = canvas.cpp; path = ../turok/game/canvas.cpp; sourceTree = "<group>"; };
+		2ACEEF372AABA93900A19ADE /* canvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = canvas.h; path = ../turok/game/canvas.h; sourceTree = "<group>"; };
+		2ACEEF3A2AABAA0800A19ADE /* libSDL2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libSDL2.dylib; sourceTree = "<group>"; };
 		411FAEFB191803D700EC16DA /* image.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = image.cpp; path = ../turok/renderer/image.cpp; sourceTree = "<group>"; };
 		411FAEFC191803D700EC16DA /* image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = image.h; path = ../turok/renderer/image.h; sourceTree = "<group>"; };
 		4193C4EE18F5AE370008503A /* worldModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = worldModel.cpp; path = ../turok/game/worldModel.cpp; sourceTree = "<group>"; };
@@ -204,13 +170,10 @@
 		41B2A86E18DB769400FAFCB9 /* material.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = material.cpp; path = ../turok/renderer/material.cpp; sourceTree = "<group>"; };
 		41CAA0D918E9CF2600C03A0A /* renderMain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = renderMain.cpp; path = ../turok/renderer/renderMain.cpp; sourceTree = "<group>"; };
 		41CAA0DA18E9CF2600C03A0A /* renderMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = renderMain.h; path = ../turok/renderer/renderMain.h; sourceTree = "<group>"; };
-		41DD4F8C18CA685500664EF8 /* SDL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL.xcodeproj; path = "../../../SDL2-2.0.1/Xcode/SDL/SDL.xcodeproj"; sourceTree = "<group>"; };
 		41DD4FA018CA692C00664EF8 /* Kex2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Kex2; sourceTree = BUILT_PRODUCTS_DIR; };
 		41DD4FAC18CA69EE00664EF8 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 		41DD4FAD18CA69EE00664EF8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		41DD4FAE18CA69EE00664EF8 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		41DD4FAF18CA69EE00664EF8 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		41DD4FBC18CA6C9200664EF8 /* angelscript.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = angelscript.xcodeproj; path = ../angelscript/angelscript/projects/xcode/angelscript.xcodeproj; sourceTree = "<group>"; };
 		41DD4FD118CA6EF400664EF8 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../turok/main.cpp; sourceTree = "<group>"; };
 		41DD4FD518CA6F3C00664EF8 /* array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = array.h; path = ../turok/framework/array.h; sourceTree = "<group>"; };
 		41DD4FD618CA6F3C00664EF8 /* binFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = binFile.cpp; path = ../turok/framework/binFile.cpp; sourceTree = "<group>"; };
@@ -326,8 +289,6 @@
 		41DD507518CA6FCA00664EF8 /* random.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = random.cpp; path = ../turok/math/random.cpp; sourceTree = "<group>"; };
 		41DD507618CA6FCA00664EF8 /* vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vector.cpp; path = ../turok/math/vector.cpp; sourceTree = "<group>"; };
 		41DD508018CA6FD600664EF8 /* dgl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = dgl.h; path = ../turok/opengl/dgl.h; sourceTree = "<group>"; };
-		41DD508318CA6FE100664EF8 /* canvas.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = canvas.cpp; path = ../turok/renderer/canvas.cpp; sourceTree = "<group>"; };
-		41DD508418CA6FE100664EF8 /* canvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = canvas.h; path = ../turok/renderer/canvas.h; sourceTree = "<group>"; };
 		41DD508518CA6FE100664EF8 /* frustum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = frustum.cpp; path = ../turok/renderer/frustum.cpp; sourceTree = "<group>"; };
 		41DD508618CA6FE100664EF8 /* frustum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = frustum.h; path = ../turok/renderer/frustum.h; sourceTree = "<group>"; };
 		41DD508718CA6FE100664EF8 /* renderFont.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = renderFont.cpp; path = ../turok/renderer/renderFont.cpp; sourceTree = "<group>"; };
@@ -358,13 +319,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				415E211518CF711D000589E5 /* SDL2.framework in Frameworks */,
-				415E211218CF710A000589E5 /* libSDL2.a in Frameworks */,
-				41DD4FC518CA6CC900664EF8 /* libangelscript.a in Frameworks */,
+				2ACEEF1E2AABA80D00A19ADE /* libangelscript.a in Frameworks */,
+				2ACEEF1A2AAB978F00A19ADE /* OpenAL.framework in Frameworks */,
 				41DD4FB018CA69EE00664EF8 /* Carbon.framework in Frameworks */,
 				41DD4FB118CA69EE00664EF8 /* Cocoa.framework in Frameworks */,
-				41DD4FB218CA69EE00664EF8 /* OpenAL.framework in Frameworks */,
 				41DD4FB318CA69EE00664EF8 /* OpenGL.framework in Frameworks */,
+				2ACEEF3B2AABAA0800A19ADE /* libSDL2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,22 +343,12 @@
 		41DD4F8518CA684000664EF8 = {
 			isa = PBXGroup;
 			children = (
+				2ACEEF212AABA82100A19ADE /* Kex2.entitlements */,
 				41DD4FB418CA6AF800664EF8 /* Frameworks */,
 				41DD4FA118CA692C00664EF8 /* Products */,
 				41DD4FB518CA6B0C00664EF8 /* Libraries */,
 				41DD4FC618CA6E4A00664EF8 /* Source */,
 			);
-			sourceTree = "<group>";
-		};
-		41DD4F8D18CA685500664EF8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				41DD4F9418CA685500664EF8 /* SDL2.framework */,
-				41DD4F9618CA685500664EF8 /* libSDL2.a */,
-				41DD4F9818CA685500664EF8 /* libSDL2.dylib */,
-				41DD4F9A18CA685500664EF8 /* Standard DMG */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		41DD4FA118CA692C00664EF8 /* Products */ = {
@@ -412,9 +362,11 @@
 		41DD4FB418CA6AF800664EF8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2ACEEF3A2AABAA0800A19ADE /* libSDL2.dylib */,
+				2ACEEF1D2AABA80C00A19ADE /* libangelscript.a */,
+				2ACEEF192AAB978F00A19ADE /* OpenAL.framework */,
 				41DD4FAC18CA69EE00664EF8 /* Carbon.framework */,
 				41DD4FAD18CA69EE00664EF8 /* Cocoa.framework */,
-				41DD4FAE18CA69EE00664EF8 /* OpenAL.framework */,
 				41DD4FAF18CA69EE00664EF8 /* OpenGL.framework */,
 			);
 			name = Frameworks;
@@ -423,21 +375,10 @@
 		41DD4FB518CA6B0C00664EF8 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				41DD4FBC18CA6C9200664EF8 /* angelscript.xcodeproj */,
-				41DD4F8C18CA685500664EF8 /* SDL.xcodeproj */,
 				41DD50EC18CA854500664EF8 /* ENet */,
 				41AFCEF2191C17C60087F2DF /* TinyXML */,
 			);
 			name = Libraries;
-			sourceTree = "<group>";
-		};
-		41DD4FBD18CA6C9200664EF8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				41DD4FC218CA6C9200664EF8 /* libangelscript.a */,
-				41DD4FC418CA6C9200664EF8 /* libangelscript.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		41DD4FC618CA6E4A00664EF8 /* Source */ = {
@@ -458,6 +399,13 @@
 		41DD4FC718CA6E6400664EF8 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				2ACEEF2E2AABA91300A19ADE /* getter.h */,
+				2ACEEF2B2AABA91200A19ADE /* imgui.cpp */,
+				2ACEEF2F2AABA91300A19ADE /* imgui.h */,
+				2ACEEF2D2AABA91200A19ADE /* inputSystem.h */,
+				2ACEEF2A2AABA91200A19ADE /* resourceManager.h */,
+				2ACEEF2C2AABA91200A19ADE /* systemBase.cpp */,
+				2ACEEF302AABA91300A19ADE /* systemBase.h */,
 				41DD4FD618CA6F3C00664EF8 /* binFile.cpp */,
 				41DD4FD918CA6F3C00664EF8 /* client.cpp */,
 				41DD4FDB18CA6F3C00664EF8 /* cmd.cpp */,
@@ -514,6 +462,10 @@
 		41DD4FC818CA6E7000664EF8 /* Game */ = {
 			isa = PBXGroup;
 			children = (
+				2ACEEF362AABA93900A19ADE /* canvas.cpp */,
+				2ACEEF372AABA93900A19ADE /* canvas.h */,
+				2ACEEF352AABA93900A19ADE /* gui.cpp */,
+				2ACEEF342AABA93900A19ADE /* gui.h */,
 				41DD501A18CA6F7A00664EF8 /* actor.cpp */,
 				41DD501C18CA6F7A00664EF8 /* ai.cpp */,
 				41B198F218D754DF00E05F5F /* animation.cpp */,
@@ -599,7 +551,10 @@
 		41DD4FCC18CA6E8400664EF8 /* Renderer */ = {
 			isa = PBXGroup;
 			children = (
-				41DD508318CA6FE100664EF8 /* canvas.cpp */,
+				2ACEEF252AABA8CB00A19ADE /* cpuVertexList.cpp */,
+				2ACEEF222AABA8CA00A19ADE /* cpuVertexList.h */,
+				2ACEEF232AABA8CB00A19ADE /* renderImgui.cpp */,
+				2ACEEF242AABA8CB00A19ADE /* renderImgui.h */,
 				41AD474518FC8149007B3201 /* fbo.cpp */,
 				41DD508518CA6FE100664EF8 /* frustum.cpp */,
 				411FAEFB191803D700EC16DA /* image.cpp */,
@@ -615,7 +570,6 @@
 				41DD509118CA6FE100664EF8 /* textureObject.cpp */,
 				41B02B4718FDBDA700D7E538 /* viewBounds.cpp */,
 				41B1F3CD190AC19200334650 /* viewPortals.cpp */,
-				41DD508418CA6FE100664EF8 /* canvas.h */,
 				41AD474618FC8149007B3201 /* fbo.h */,
 				41DD508618CA6FE100664EF8 /* frustum.h */,
 				411FAEFC191803D700EC16DA /* image.h */,
@@ -713,8 +667,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				415E211418CF7110000589E5 /* PBXTargetDependency */,
-				41DD50A218CA712200664EF8 /* PBXTargetDependency */,
 			);
 			name = Kex2;
 			productName = Kex2;
@@ -734,72 +686,18 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 41DD4F8518CA684000664EF8;
 			productRefGroup = 41DD4FA118CA692C00664EF8 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 41DD4FBD18CA6C9200664EF8 /* Products */;
-					ProjectRef = 41DD4FBC18CA6C9200664EF8 /* angelscript.xcodeproj */;
-				},
-				{
-					ProductGroup = 41DD4F8D18CA685500664EF8 /* Products */;
-					ProjectRef = 41DD4F8C18CA685500664EF8 /* SDL.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				41DD4F9F18CA692C00664EF8 /* Kex2 */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		41DD4F9418CA685500664EF8 /* SDL2.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SDL2.framework;
-			remoteRef = 41DD4F9318CA685500664EF8 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		41DD4F9618CA685500664EF8 /* libSDL2.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libSDL2.a;
-			remoteRef = 41DD4F9518CA685500664EF8 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		41DD4F9818CA685500664EF8 /* libSDL2.dylib */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.dylib";
-			path = libSDL2.dylib;
-			remoteRef = 41DD4F9718CA685500664EF8 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		41DD4F9A18CA685500664EF8 /* Standard DMG */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = "Standard DMG";
-			remoteRef = 41DD4F9918CA685500664EF8 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		41DD4FC218CA6C9200664EF8 /* libangelscript.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libangelscript.a;
-			remoteRef = 41DD4FC118CA6C9200664EF8 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		41DD4FC418CA6C9200664EF8 /* libangelscript.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libangelscript.a;
-			remoteRef = 41DD4FC318CA6C9200664EF8 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		41DD4F9C18CA692C00664EF8 /* Sources */ = {
@@ -828,13 +726,14 @@
 				41DD503C18CA6F7A00664EF8 /* door.cpp in Sources */,
 				41DD504F18CA6F9500664EF8 /* physics.cpp in Sources */,
 				41DD501318CA6F3C00664EF8 /* object.cpp in Sources */,
+				2ACEEF272AABA8CB00A19ADE /* cpuVertexList.cpp in Sources */,
 				41DD501518CA6F3C00664EF8 /* psnprntf.cpp in Sources */,
 				41DD50F518CA856F00664EF8 /* callbacks.c in Sources */,
-				41DD509418CA6FE100664EF8 /* canvas.cpp in Sources */,
 				41DD507818CA6FCA00664EF8 /* bounds.cpp in Sources */,
 				41DD505C18CA6FAD00664EF8 /* component.cpp in Sources */,
 				41DD4FD218CA6EF400664EF8 /* main.cpp in Sources */,
 				41DD50F818CA856F00664EF8 /* list.c in Sources */,
+				2ACEEF382AABA93A00A19ADE /* gui.cpp in Sources */,
 				41DD500D18CA6F3C00664EF8 /* input.cpp in Sources */,
 				41DD501918CA6F3C00664EF8 /* unzip.cpp in Sources */,
 				41B198F418D754DF00E05F5F /* animation.cpp in Sources */,
@@ -858,9 +757,12 @@
 				41DD504018CA6F7A00664EF8 /* mover.cpp in Sources */,
 				41DD507718CA6FCA00664EF8 /* angle.cpp in Sources */,
 				41DD50F918CA856F00664EF8 /* packet.c in Sources */,
+				2ACEEF322AABA91300A19ADE /* imgui.cpp in Sources */,
 				41DD504218CA6F7A00664EF8 /* world.cpp in Sources */,
+				2ACEEF262AABA8CB00A19ADE /* renderImgui.cpp in Sources */,
 				41DD507B18CA6FCA00664EF8 /* plane.cpp in Sources */,
 				41DD500B18CA6F3C00664EF8 /* defs.cpp in Sources */,
+				2ACEEF332AABA91300A19ADE /* systemBase.cpp in Sources */,
 				41DD501218CA6F3C00664EF8 /* network.cpp in Sources */,
 				41DD500918CA6F3C00664EF8 /* console.cpp in Sources */,
 				41DD500618CA6F3C00664EF8 /* client.cpp in Sources */,
@@ -874,6 +776,7 @@
 				41DD505E18CA6FAD00664EF8 /* scriptSystem.cpp in Sources */,
 				41B1F3CF190AC19200334650 /* viewPortals.cpp in Sources */,
 				41DD509718CA6FE100664EF8 /* renderModel.cpp in Sources */,
+				2ACEEF392AABA93A00A19ADE /* canvas.cpp in Sources */,
 				41DD50F618CA856F00664EF8 /* compress.c in Sources */,
 				41DD500F18CA6F3C00664EF8 /* keymap.cpp in Sources */,
 				41DD507918CA6FCA00664EF8 /* mathlib.cpp in Sources */,
@@ -900,19 +803,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		415E211418CF7110000589E5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Static Library";
-			targetProxy = 415E211318CF7110000589E5 /* PBXContainerItemProxy */;
-		};
-		41DD50A218CA712200664EF8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "angelscript OSX";
-			targetProxy = 41DD50A118CA712200664EF8 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
 		41DD4F8A18CA684000664EF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -935,6 +825,7 @@
 					../turok/framework,
 				);
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -958,6 +849,7 @@
 					../turok/game,
 					../turok/framework,
 				);
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -976,12 +868,10 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = Kex2.entitlements;
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					/Library/Frameworks,
-					/Users/svillarreal/Desktop/master/kex2/xcode,
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Kex2-adbbpxgioqrisudaqfiqbgmqdjdn/Build/Products/Debug",
-				);
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -997,9 +887,25 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../SDL2/include,
+					../enet/include,
+					../angelscript/angelscript/include,
+					../tinyxml/,
+					../turok/sound,
+					../turok/renderer,
+					../turok/opengl,
+					../turok/math,
+					../turok/geometry,
+					../turok/game,
+					../turok/framework,
+					"$(PROJECT_DIR)/include",
+				);
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks $(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Kex2-adbbpxgioqrisudaqfiqbgmqdjdn/Build/Products/Debug /Library/Frameworks /Users/svillarreal/Desktop/master/kex2/xcode $(HOME)/Library/Frameworks";
-				LIBRARY_SEARCH_PATHS = "";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)";
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -1021,14 +927,12 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = Kex2.entitlements;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_NS_ASSERTIONS = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					/Library/Frameworks,
-					/Users/svillarreal/Desktop/master/kex2/xcode,
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Kex2-adbbpxgioqrisudaqfiqbgmqdjdn/Build/Products/Debug",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
@@ -1037,9 +941,25 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../SDL2/include,
+					../enet/include,
+					../angelscript/angelscript/include,
+					../tinyxml/,
+					../turok/sound,
+					../turok/renderer,
+					../turok/opengl,
+					../turok/math,
+					../turok/geometry,
+					../turok/game,
+					../turok/framework,
+					"$(PROJECT_DIR)/include",
+				);
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks $(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Kex2-adbbpxgioqrisudaqfiqbgmqdjdn/Build/Products/Debug /Library/Frameworks /Users/svillarreal/Desktop/master/kex2/xcode $(HOME)/Library/Frameworks";
-				LIBRARY_SEARCH_PATHS = "";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)";
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};

@@ -247,7 +247,7 @@ void kexCvarManager::WriteToFile(FILE *file) {
 void kexCvarManager::InitCustomCvars(void) {
     kexDefinition *def;
 
-    if((def = defManager.LoadDefinition("defs/cvars.def"))) {
+    /*if((def = defManager.LoadDefinition("defs/cvars.def"))) {
         kexKeyMap *key;
         kexStr name;
         kexStr desc;
@@ -269,7 +269,7 @@ void kexCvarManager::InitCustomCvars(void) {
                 common.AddCvar(name, value, desc, flags);
             }
         }
-    }
+    }*/
 }
 
 //

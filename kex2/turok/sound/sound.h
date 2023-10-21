@@ -27,8 +27,8 @@
 #include "al.h"
 #include "alc.h"
 #else
-#include "OpenAL/al.h"
-#include "OpenAL/alc.h"
+#include <OpenAL/al.h>
+#include <OpenAL/alc.h>
 #endif
 
 #include "gameObject.h"
